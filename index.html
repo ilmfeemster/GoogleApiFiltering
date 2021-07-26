@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Sidebar 08</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+		
+		<div class="container-fluid d-md-flex align-items-stretch">
+      <!-- Page Content  -->
+      <div id="content" class="p-0 p-sm-0 pt-0">
+            <div id="map"></div>
+      </div>
+
+      <nav id="sidebar">
+				<div class="p-4 pt-5" >
+					<h5>Filters </h5>
+	        <ul class="list-unstyled components mb-5">
+	          <li>
+	            <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Rent</a>
+	            <ul class="collapse list-unstyled" id="pageSubmenu1">
+                <li><input id="multi1" class="multi-range" value="1600" min="1600" max="4000" step="50" type="range" /></span><br><span id="result1">1600</span></li>
+	            </ul>
+	          </li>
+            <li>
+	            <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Bedrooms</a>
+	            <ul class="collapse list-unstyled" id="pageSubmenu2">
+                <li><input id="multi2" class="multi-range" value="0" min="0" max="4" type="range" /></span></span><br><span id="result2">0</span></li>
+	            </ul>
+	          </li>
+            <li>
+	            <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Bathrooms</a>
+	            <ul class="collapse list-unstyled" id="pageSubmenu3">
+                <li><input id="multi3" class="multi-range" value="1" min="1" max="3" type="range" /></span></span><br><span id="result3">1</span></li>
+	            </ul>
+	          </li>
+	      </div>
+    	</nav>
+		</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?AIzaSyBj9CqqRbwHxRqr0kPYMq1DymwgIFP39_I&map_ids=4ed8a8cc983cf9ca&callback=initMap">
+</script>
+  </body>
+</html>
